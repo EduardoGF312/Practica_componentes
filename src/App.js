@@ -13,7 +13,7 @@ function App() {
       <a href='https://utd.edu.mx/' target="_blank">
         <Button className='utd'><span>UTD</span></Button>
       </a>
-      <a href='https://github.com/'>
+      <a href='https://github.com/EduardoGF312/Practica_componentes.git'>
         <Button className='git'><span>GitHub</span></Button>
       </a>
       <a href='https://instagram.com/eduardo_g03?igshid=ZDdkNTZiNTM='>
