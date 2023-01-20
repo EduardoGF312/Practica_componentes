@@ -1,23 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
+import styled from 'styled-components';
+
+const Button = styled.button`
+  /* Adapt the colors based on primary prop */ 
+`;
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Botones</h1>
+      <a href='https://utd.edu.mx/' target="_blank">
+        <Button className='utd'><span>UTD</span></Button>
+      </a>
+      <a href='https://github.com/'>
+        <Button className='git'><span>GitHub</span></Button>
+      </a>
+      <a href='https://instagram.com/eduardo_g03?igshid=ZDdkNTZiNTM='>
+        <Button className='insta'><span>Instagram</span></Button>
+      </a>
+      
     </div>
   );
 }
